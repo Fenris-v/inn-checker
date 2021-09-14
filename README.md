@@ -37,7 +37,11 @@ bash install.sh
    ```shell
    sail composer install
    ```
-5. Выполнить миграции
+5. Сгенерировать ключ
+   ```shell
+   sail artisan key:generate
+   ```
+6. Выполнить миграции
    ```shell
    sail artisan migrate
    ```
